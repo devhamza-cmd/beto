@@ -4,7 +4,7 @@ function checkLogin() {
 
     if (email === "admin@root.cmd" && password === "1234" && email != "" && password != "") {
       window.open("home.html");
-    } else {
+    } else {  
       alert("Incorrect login credentials or empty fields. Please try again.");
     }
   }
