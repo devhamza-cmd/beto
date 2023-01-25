@@ -232,6 +232,7 @@ nav img{
 }
 .time div{
     color: black;
+    
 }
 .plan button{
     color: white;
@@ -269,18 +270,91 @@ nav img{
 img{
     height: 30px;
 }
+.post {
+width: 100%;
+margin: 0 auto;
+box-shadow: 3px 3px 10px 3px #dddddd;
+border-radius: 20px;
+padding: 0  10px;
+
+}
 @media only screen and (max-width: 991px) {
     .time button{
         width: 85vw;
     }
-    .search input{
-        width: 20px;
-        color: red;
+    .search {
+        width: 300px;
        }
+    
 }
 @media only screen and (min-width: 561px) {
    .learn ,.fs5{
     font-size: 11px;
    }
    
+}
+
+  
+.navbar{
+    background-color: white;
+    box-shadow: 3px 3px 10px 3px #dddddd;
+    width: 100vw;
+}
+nav{
+    background-color: white;
+}
+.getq{
+    padding: 10px;
+}
+.getq input{
+    width: 60vw;
+   padding-left: 10px
+}
+.publish{
+border: none;
+}
+.firstpost {
+    margin: 40px auto 0 auto;
+    height: 150px;
+    box-shadow: 3px 3px 10px 3px #dddddd;
+    border-radius: 20px;
+    padding: 20px;
+    overflow: hidden;
+  }
+  @media screen and (max-width: 992px) {
+    .firstpost {
+      width: 100%;
+    }
+  }
+  .q {
+    white-space: nowrap;
+  }
+    .info {
+      display: flex;
+    }
+    
+    .q {
+      padding-top: 3px;
+    }
+  .react{
+      width: 100%;
+  }
+  .react a{
+      text-decoration: none;
+  }
+  .trueorfalse button{
+    color: var(--primary-color);
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    width: 100px;
+    transition: 0.4s;
+}
+.trueorfalse{
+    display: flex;
+    justify-content: space-around;
+}
+.trueorfalse button:hover{
+    color: white;
+    background-color: var(--primary-opacity-color);
 }
