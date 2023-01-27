@@ -1,0 +1,62 @@
+.nested{
+    height: 200px;
+    width: 70%;
+    margin: 10px auto 0 auto;
+    box-shadow: 3px 3px 10px 3px #dddddd;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+p{
+    color: var(--primary-color);
+    font-size: 22px;
+    font-weight: bolder;
+    height: calc(100%/3);
+}
+.reponse{
+    height: calc(100%/3);
+    font-weight: bold;
+}
+.chose{
+    width: 100%;
+}
+.chose button{
+    height: calc(100%/3);
+    color: var(--primary-color);
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    width: 100px;
+    transition: 0.4s;
+    
+}
+.chose   button:hover{
+    color: white;
+    background-color: var(--primary-color);
+}
+span {
+    color:black;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+.work button{
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    transition: 0.4s;
+    font-weight: bolder;
+}
+.work{
+    display: flex;
+    justify-content: space-around;
+}
+ button:hover{
+    color: rgb(0, 0, 0);
+    background-color:rgba(80, 0, 247, 0.471);
+}
+.nested div {
+    height: calc(100%/4);
+}

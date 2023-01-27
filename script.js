@@ -137,6 +137,7 @@ input.placeholder = "Enter text here...";
 var button = document.createElement("button");
 button.id = "publish";
 button.innerText = "Publish";
+button.classList.add("submit")
 
 
      
@@ -160,6 +161,7 @@ button.innerText = "Publish";
         solution.appendChild(input);
     
         var button = document.createElement("button");
+        button.classList.add("submit")
         button.innerText = "Submit";
         solution.appendChild(button);
         newDiv.appendChild(solution)
@@ -167,5 +169,7 @@ button.innerText = "Publish";
     
   }
 });
+
+
 
   
